@@ -21,7 +21,7 @@ Do ponto de vista acadêmico, o código demonstra de forma prática como a lingu
 
 **Código 1 – Script de Inicialização do Robô NAO**
 
-
+```
 sim=require'sim'
 
 function sysCall_init() 
@@ -56,7 +56,7 @@ function sysCall_init()
         sim.setShapeColor(allVisibleShapes[i],'NAO_GREY',0,g)
     end
 end
-
+```
 
 
 **2. Análise do Script 2 de Detecção de Cores e Controle de Movimento do Robô NAO no CoppeliaSim
@@ -90,7 +90,7 @@ Do ponto de vista acadêmico, o código demonstra o uso da linguagem LUA para co
 
 
 **Código 2 – Script de Detecção de Cores e Controle de Movimento do Robô NAO**
-
+```
 sim=require'sim'
 
 function sysCall_init() 
@@ -125,3 +125,4 @@ function sysCall_init()
         sim.setShapeColor(allVisibleShapes[i],'NAO_GREY',0,g)
     end
 end
+```
